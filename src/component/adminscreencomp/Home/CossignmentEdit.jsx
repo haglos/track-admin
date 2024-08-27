@@ -26,8 +26,6 @@ export const AdminCossignmentEditComponent = ({ updateHandler, }) => {
     let submitHandler = (e) => {
         e.preventDefault()
         //patch case on 
-        console.log(isData)
-        return
         updateHandler(isData)
 
     }
